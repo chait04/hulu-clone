@@ -1,0 +1,10 @@
+.App {
+  overflow-x: hidden;
+
+  background-image: linear-gradient(
+    318.68deg,
+    #0f495c 0%,
+    #0d3640 49.72%,
+    #08141f 100%
+  );
+}

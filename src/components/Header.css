@@ -1,0 +1,122 @@
+.header {
+    color: white;
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    background-image: linear-gradient(to right, #051421, #003a3a);
+}
+  
+.header > img {
+    object-fit: contain;
+    height: 80px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100px;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.header__icon > .MuiSvgIcon-root {
+    font-size: 30px;
+}
+
+.header__icon p {
+    display: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: small;
+}
+
+.header__icon--active > p{
+    display: inline-flex !important;
+}
+
+.header__icon:hover > p {
+    display: inline-flex;
+} 
+
+/* Hidding horizontal ScrollBar  */
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* @media(max-width:646px){
+    .header {
+        padding: 0px;
+    }
+    .header__icon {
+        width: 50px;
+    }
+    .header__icon svg {
+        font-size: 22px;
+    }
+    .header__icons {
+        width: 65%;
+    }
+} */
+
+@media(max-width:908px){
+    .header > img {
+        height: 66px;
+     }
+     .header__icons{
+        width: 500px;
+     }
+     .header {
+        padding: 2px 15px;
+     }
+}
+
+@media (max-width: 320px){
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .header > img {
+        height: 40px;
+    }
+    .header__icons {
+        width: 100%;
+        overflow-x: scroll;
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        background-color: #0e3945;
+        height: 30px;
+        
+        /* flex-direction: column; */
+    }
+    .header__icon {
+       height: 3
+    }
+    .header__icon svg{
+        height: 15px;
+        width: 14px;
+    }
+    .header__icon p {
+        display: none;
+    }
+    .header__icon:hover{
+        display: none;
+    }
+    .header__icon--active{
+        display: none;
+    }
+}
