@@ -1,8 +1,11 @@
-#  Random / by search meme generator using giphy api 📝
+#  Hulu clone 📝
 
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
 [![Issues](https://img.shields.io/github/issues/chait04/hulu-clone)](#issues)
 [![forks](https://img.shields.io/github/forks/chait04/hulu-clone)](#forks)
+
+## About  project
+  You will get list of movies. Its similar to netflix
 
 ## Tech Stack 🗃
 
