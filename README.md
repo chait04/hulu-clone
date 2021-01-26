@@ -7,6 +7,8 @@
 ## About  project
   You will get list of movies. Its similar to netflix
 
+* App is no more deployed will be fixed soon
+
 ## Tech Stack 🗃
 
 <img src="https://img.shields.io/badge/-ReactJS-%2300bfff%20"> <img src="https://img.shields.io/badge/-MaterialUI-orange"> <img src="https://img.shields.io/badge/-axios-green">
